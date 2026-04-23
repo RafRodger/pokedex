@@ -27,7 +27,7 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": ["favicon.ico", "og-image.jpg", "assets", "404.html"],
-            "styles": ["styles.scss"],
+            "styles": ["src/styles.scss"],
             "stylePreprocessorOptions": {
               "includePaths": ["src/assets/styles"]
             },
