@@ -1,23 +1,22 @@
 {
-  "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": [
-      "/assets/*",
-      "*.css",
-      "*.js",
-      "*.ico",
-      "*.png",
-      "*.jpg",
-      "*.jpeg",
-      "*.svg",
-      "*.gif"
-    ]
-  },
+"navigationFallback": {
+"rewrite": "/index.html",
+"exclude": [
+"/assets/",
+".css",
+".js",
+".ico",
+".png",
+".jpg",
+".jpeg",
+".svg",
+"*.gif"
+]
+}, 
   "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://raw.githubusercontent.com; connect-src 'self' https://pokeapi.co;",
-    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://raw.githubusercontent.com https://unpkg.com; connect-src 'self' https://pokeapi.co;",
     "X-Content-Type-Options": "nosniff",
-    "X-Frame-Options": "DENY",
-    "Referrer-Policy": "no-referrer"
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
   }
 }
