@@ -14,7 +14,7 @@ export const environment = {
   pokedexGithub: 'https://github.com/keilermora/pokedex-angular',
 
   // Images folder url
-  imagesPath: 'pokedex-angular/src/assets/images',
+  imagesPath: 'src/assets/images',
 
   // Default language
   language: 'en',
