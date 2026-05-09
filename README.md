@@ -23,7 +23,6 @@ Para el correcto funcionamiento y despliegue de esta aplicación, se requieren l
 Siguiendo las exigencias de Pueblo Paleta Inc. tras sus recientes ciberataques, la aplicación ha sido configurada para incluir los siguientes encabezados de seguridad:
 
 -   **Content-Security-Policy (CSP):** Prevención de ataques XSS.
--   **Strict-Transport-Security (HSTS):** Obligatoriedad de HTTPS.
 -   **X-Content-Type-Options: nosniff:** Protección contra el rastreo de tipos MIME.
 -   **X-Frame-Options: DENY:** Prevención de Clickjacking.
 -   **Referrer-Policy: no-referrer:** Protección de la privacidad en las cabeceras.
